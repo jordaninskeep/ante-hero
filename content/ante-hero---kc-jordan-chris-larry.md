@@ -1,0 +1,509 @@
+# Ante-Hero
+
+# Introduction
+
+## **Core Concept**
+
+*Ante-Hero* is a collaborative, narrative-first roleplaying game where **the world?not the characters?is the protagonist**. Players and the Showrunner (GM) create a serialized story across ?Episodes,? driven by character choices, dramatic consequences, and narrative momentum.
+
+Rather than asking ?Did I succeed?? players roll to answer:
+
+ **?How strongly did I influence the story??**
+
+Success, failure, and flaws all fuel the unfolding tale.
+
+# Dice System Overview
+
+**Opposing Dice Pools** resolve all meaningful actions:
+
+- **White Dice** = Strengths, support, and narrative momentum \
+
+
+- **Red Dice** = Flaws, danger, opposition, and inner demons \
+
+
+**Dice Results (per die):**
+
+- 1?3 = No Influence
+
+- 4?5 = Some Influence
+
+- 6 = Dominant Influence
+
+- Two or more 6s = Overwhelming Influence
+
+### **Outcome Comparison:**
+
+| White vs Red | Narrative Outcome |
+|---|---|
+| White > Red | Triumph ? intent succeeds; complications may arise |
+| White = Red | Mixed ? goal succeeds, but at a cost |
+| Red > White | Trouble ? intent fails; new problems emerge |
+
+**Game Flow**
+
+### **1. World-Building (Session 0)**
+
+Collaboratively define the genre, tone, and major themes:
+
+- **Genre (d6):**
+
+- Fantasy?2. Sci-Fi?3. Post-Apocalyptic
+
+- Horror?5. Historical?6. Urban Fantasy
+
+- **Conditions & Locations: \
+** Roll 1 White + 1 Red die per player: \
+
+
+- White = Opportunities
+
+- Red = Complications
+
+- **Set a Starting Group Project** ("Pot"): \
+ Roll 3?6 dice. \
+
+
+- White highest = Smooth start
+
+- Red highest = Rough start
+
+- Tie = Twist or surprise
+
+**Character Creation & Development**
+
+Characters, or **Personas**, are fluid narrative tools?not fixed heroes.
+
+### **Start With:**
+
+- **Name & Trope/Role** (e.g., ?The Burned-Out Detective?) \
+
+
+- **Foreshadowing Line** (e.g., ?One day, I?ll become what they fear??) \
+
+
+- **Arc Theme** (e.g., *Redemption through Sacrifice*) \
+
+
+- (+) Ending: Peaceful resolution
+
+- (?) Ending: Self-destruction
+
+### **Aspects & Qualities**
+
+Each character has three **Aspects**:
+
+- **Body**, **Mind**, and **Soul**
+
+Each Aspect develops **Qualities**:
+
+- **Positive (White dice):** Strengths, skills, virtues \
+
+
+- **Negative (Red dice):** Flaws, trauma, habits
+
+**Example:**
+
+- *Body (+): Ex-Military Physique*
+
+- *Body (?): Injured Leg*
+
+### **Starting Pools:**
+
+Choose one:
+
+- **Option A:** Start blank with 10 dice (assigned as Qualities develop) \
+
+
+- **Option B:** Start with 1 White & 1 Red Quality per Aspect (6 total) \
+
+
+**Gameplay Structure**
+
+### **Sessions & Seasons**
+
+- **Episode =** 5?10 Scenes + Intermissions + ?Under the Stars? epilogue \
+
+
+- **Season =** 8?12 Episodes \
+
+
+- **Series =** Full campaign arc
+
+**Scenes & Intermissions**
+
+### **Scenes**
+
+Narrative moments where players interact, face conflicts, and roll dice.
+
+1. **Set the Scene: **Players write down something they want to happen that becomes a Pot. The Showrunner takes these as a ?Story Board? and arranges them as Scenes to happen in the episode and frames the setting and stakes. \
+
+
+2. **Build Dice Pools:**
+
+- Add 1 White die per relevant positive Quality
+
+- Add 1 Red die per negative Quality or complication
+
+- Scene Type (sets base danger level):
+
+- Standard (7W:3R)
+
+- Risky (5W:5R)
+
+- Desperate (3W:7R)
+
+- **Roll & Resolve: **Compare White vs Red outcomes. Narrate together.
+
+**Intermissions**
+
+Breaks between scenes to:
+
+- Propose new storylines
+
+- Adjust character arcs or Qualities
+
+- Establish new **Pots** (goals, challenges) \
+
+
+**Pots: Narrative Stakes**
+
+### **What is a Pot?**
+
+A **Pot** is a narrative challenge: a project, interaction, goal, conflict, or mission.
+
+**Examples:**
+
+- ?Cleanse the Shrine?
+
+- ?Defend the Village?
+
+- ?Uncover the Traitor?
+
+### **Creating a Pot:**
+
+- Players and Showrunner **ante dice** into proposed Pots. \
+
+
+- The total number of dice = the Pot?s **difficulty**. \
+
+
+- Only actions with enough **White influence** can ?bust? the Pot.
+
+### **Resolving a Pot:**
+
+- Players roll in Scenes against a Pot.
+
+- If White influence exceeds Red (or difficulty), the Pot is **busted**. \
+
+
+- **Rewards:**
+
+- Gain or evolve a Quality (White or Red)
+
+- Advance Arc
+
+- Gain allies, resources, or narrative leverage
+
+### **Loose Ends:**
+
+- If a Pot is ignored, it becomes a **Loose End**. \
+
+
+- The Showrunner may roll for **World Response** (e.g. 3 Red dice). \
+
+
+- 2+ Red 6s = World busts the Pot.
+
+- Use the **World Bust Table** (twists, setbacks, deaths, new threats). \
+
+
+**Advancement**
+
+**Busting a Pot** allows a player to:
+
+- Add or refine a Quality (e.g., gain ?Steadfast? or ?Unstable?)
+
+- Mark a **turning point** in their Arc \
+
+
+- Receive narrative perks (e.g., a new ally)
+
+**Capped Qualities**: ~5 per Aspect recommended
+
+**Ego Dice (Advanced/Finale Mechanic)**
+
+Each player has **2?3 Ego Dice** per Season:
+
+- Represent personal reserves pushed to the limit
+
+- Flip the die blind during a scene: it becomes a random Red or White die
+
+- Use it to influence a crucial scene
+
+- But beware: **using all Ego Dice may lead to character collapse** in the finale
+
+**Initiative & Scene Framing**
+
+**Adaptive Initiative (Optional):**
+
+- Players ante 1?3 dice to bid for scene control
+
+- Highest total frames the scene and begins with ?And? Action!?
+
+**Game Summary Flow**
+
+1. **Set Scene & Pot**
+
+2. **Declare Actions & Build Dice Pools**
+
+3. **Roll (White vs Red) & Interpret Result**
+
+4. **Narrate Outcome**
+
+5. **Intermission: Update arcs, propose next Pot or Scene**
+
+6. **Repeat**
+
+7. **End Episode with ?Under the Stars? scene**
+
+**Character Sheet Elements**
+
+| Field | Description |
+|---|---|
+| Name / Trope / Foreshadow | Character identity, archetype, and dramatic line |
+| Aspects & Qualities | Body / Mind / Soul with positive (+W) and negative (+R) traits |
+| Arc | Title, foreshadowing, positive and negative endings |
+| Secrets & Relationships | Short dramatic hooks |
+| Dice Pool | Track current dice available (White/Red) |
+| Ego Dice Used | Track remaining Ego dice |
+
+**Design Philosophy**
+
+- Let **themes, not heroes**, take center stage. \
+
+
+- Embrace **?Yes, and??** to grow the fiction cooperatively. \
+
+
+- Treat every result?success or failure?as **meaningful influence**. \
+
+
+- Personas change, die, or disappear; **the world remembers. \
+**
+
+- The story is not about winning?it is about transformation.
+
+Let the **story** win. Let the **dice** decide.
+
+**ADVANCEMENT THROUGH POTS**
+
+You evolve your character by **busting Pots** (i.e., succeeding against the game?s stakes).
+
+When you bust a Pot, you may:
+
+- Add a new **Quality** (positive or negative) \
+
+
+- **Deepen a Quality** (narratively evolve it: e.g., *From "Short-Tempered" ? "Rage-Induced Tunnel Vision"*) \
+
+
+- Add a new **Relationship**, **Secret**, or piece of **History \
+**
+
+- Mark a **Turning Point** in your Arc (affects narrative weight and possible ending) \
+
+
+- You may only hold a limited number of qualities per aspect (e.g., 5 each). After that, additions must replace or evolve older ones.
+
+**The World Responds**
+
+- GMs track **World Pots**: Adversarial plots, looming disasters, and unfinished business \
+
+
+- World can roll against player goals
+
+- If the World accumulates **3 World Busts**, it initiates a **Tension Phase**: \
+
+
+- Rising dread
+
+- Growing Unrest
+
+- Conflict breaks out
+
+- Major character/NPC dies or vanishes
+
+**Game Flow**
+
+1. Set the Scene
+
+2. Declare Goals & Identify Pots
+
+3. Build Dice Pools
+
+4. Resolve
+
+5. Intermission: Plan next Scene
+
+6. ?Under the Stars? wrap-up
+
+**Sample Scene**
+
+A mystic tries to seal a portal before a curse spreads.
+
+- Red Dice: 4 (time pressure, magical backlash) \
+
+
+- White Dice: 3 (ritual knowledge, support from allies)
+
+**Rolls:** Red: 6, 6, 3, 2 | White: 5, 6, 4
+
+- Success (White 6), BUT double Red 6 = Flaw gained, and something dark escapes
+
+**World-Scale Dice Metrics**
+
+| Players |  Pot Total | Easy |   Medium | Hard |
+|---|---|---|---|---|
+| 3 | 165 | 40 | 50 | 75 |
+| 4 | 220 | 55 | 65 | 100 |
+| 5 | 280 | 70 | 85 | 125 |
+
+### **Standard Scene Ratios**
+
+|        Type | White:Red |
+|---|---|
+| Standard | 7:3 |
+| Risky | 5:5 |
+| Desperate | 3:7 |
+
+**Example Scene: A warrior tries to hold a crumbling bridge.**
+
+- **Dice Pool: 3 Red (danger, collapsing structure) + 2 White (training, strength)**
+
+- **Rolls: Red 6, 5, 3 / White 4, 6**
+
+- **Result: Mixed. Allies cross safely (White 6), but the warrior is injured (Red 6).**
+
+| Average D6 roll: 3.5 | Average roll ratio Player to World assuming 10 dice | Total Pot average pot | Easy Act
+(25%) | Medium Act (30%) | Hard Act (45%) |
+|---|---|---|---|---|---|
+| 3 players | 30:15 | 157.5 (160) | 40 | 48 (50) | 72 (75) |
+| 4 players | 40:20 | 210 (220) | 55 | 63 (65) | 99 (100) |
+| 5 players | 50:25 | 262.5 (270) | 67.5 (70) | 81 (85) | 121.5 (125) |
+
+|  | Pots per act | Easy Act | Medium Act | Hard Act | Pot total |
+|---|---|---|---|---|---|
+| 3 player | 3 | 20:10:10 | 25:15:10 | 35:25:15 | 165 |
+| 4 players | 4 | 20:15:10:10 | 25:20:10:10 | 40:30:15:15 | 220 |
+| 5 players | 4 | 30:20:10:10 | 35:25:15:10 | 50:35:25:15 | 280 |
+
+|  | Standard
+7:3 White:Red | Standard Ratios | Risky
+5:5
+White:Red | Risky ratios | Desperate
+3:7
+White:Red | Desperate ratios |
+|---|---|---|---|---|---|---|
+| 3 players | E:M:H | 160:165 | M:M:H | 160:175 | M:H:H | 160:200 |
+| 4 players | E:M:H | 220:220 | M:M:H | 220:230 | M:H:H | 220:265 |
+| 5 players | E:M:H | 270:280 | M:M:H | 270:295 | M:H:H | 270:235 |
+
+
+### ***Playtest Summary:***
+
+### We tested a scene-based narrative system called the *Showrunner System*. The goal was to explore how player-created ?pots? (scene ideas or conflicts) could be turned into a collaboratively unfolding story, governed by a Storyboard (Act 1, Act 2, Act 3, etc.). The session focused on the *Lunchroom Food Fight* episode, experimenting with how players commit their characters to scenes through risk, improvisation, and responsive worldbuilding.
+
+**Setup Phase: The Storyboard**
+
+- **Pot Submissions:** Each player submitted one or more ?pots??scenario prompts with potential conflict or narrative value. The Showrunner also added a pot. \
+
+
+- **Script Formation:** The Showrunner curated these pots into a *Storyboard*, dividing them into Acts (Act 1, Act 2, Act 3), forming a loose narrative arc for the episode. \
+
+
+- **Scene Selection:** Players then chose which scene they wanted their character to be involved in. \
+
+
+- **Wager System ("Pay to Play"):** Instead of DCs, players committed to a scene by wagering dice?representing how invested or risky their character?s participation would be. This ?Pot? determines scene momentum, not success/failure.
+
+**Mechanics:**
+
+- **Adaptive Initiative:** Players rolled to determine who would initiate the scene, using the dice they wagered. The highest roller begins the action?"And... Action!". \
+
+
+- **Resolution & Reactions:**
+
+- Scenes are resolved not by success/failure rolls, but by how the world (controlled by the Showrunner) *reacts* to players' actions. \
+
+
+- Aspects (such as "Fat Goth Girl" or "Flamboyant Student") *do not* add dice?they *inform behavior*. \
+
+
+- The World can ?bust? the pot, causing escalation or unexpected shifts.
+
+**Scene Playtest: ?Lunchroom Food Fight?**
+
+**Characters:**
+
+- **Beatrice**, a fat goth girl (initiator) \
+
+
+- **Jordan**, a stinky punk \
+
+
+- **K.C.**, flamboyant student with a scarf \
+
+
+- **Chris**, the nerd \
+
+
+- **Richard**, the jock \
+
+
+**Scene Narrative:**
+
+- Beatrice trips Chris the Nerd, who spills his tray onto Richard the Jock.
+
+- She attempts to convince Richard that Chris did it intentionally.
+
+- Richard, roleplayed by the Showrunner (as The World), is not fooled?he yells, puts on his football helmet, and suspects Beatrice.
+
+- K.C. laughs and spits milk onto a nearby cheerleader.
+
+- Jordan stands on the table, throws a tray, and screams ?FOOD FIGHT!??slips, and disappears into the chaos.
+
+- Chris is accidentally struck in the face by the tray.
+
+**World Reaction:**
+
+- **The Pot is Busted.** The Showrunner declares that chaos exceeds control. \
+
+
+- The lunch ladies activate lockdown protocol: doors and windows seal.
+
+- No one knows who started it. The consequences are collective.
+
+**Key Takeaways from the Playtest:**
+
+- **Narrative Control Emerges from Risk:** Players influence the scene by how much they ?pay in,? not whether they win. \
+
+
+- **Aspects Drive Roleplay, Not Mechanics:** This encourages character-forward play. \
+
+
+- **Scene Outcomes Reflect Story Progression:** Not success/failure but narrative consequences. \
+
+
+- **World Reacts Like a GM-less Engine:** The Showrunner embodies the World and pushes back or escalates when necessary. \
+
+
+**Notes for Revision:**
+
+- **Clarify Scene Resolution:** Determine a mechanic or signal for when a scene ends (e.g., pot total met, or world bust). \
+
+
+- **Pot Guidelines:** Offer players clearer guidelines for writing pots. \
+
+
+- **Reward Mechanism:** Possibly develop an end-of-episode reflection or reward based on how well the characters? arcs developed or how the party evolved.
