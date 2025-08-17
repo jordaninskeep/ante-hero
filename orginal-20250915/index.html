@@ -1,0 +1,891 @@
+<!doctype html>
+<html data-bs-theme="dark">
+    <head>
+                <title>Orginal 20250915 - Ante-Hero TTRPG</title>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            
+            
+            
+
+            
+                <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+            
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../assets/css/root.min.css">
+            <link rel="stylesheet" href="../assets/css/main.min.css">
+            <link rel="stylesheet" href="../assets/css/media.min.css">
+            <link rel="stylesheet" href="../assets/css/mkdocstrings.min.css">
+                <script src="../search/main.js"></script>
+
+            
+                
+                    <style>
+                        :root {
+                            --text: white;
+                            --title: white;
+                            --primary: white;
+                            --background: black;
+                        }
+                    </style>
+                
+            
+    </head>
+
+    <body>
+        <div class="container py-3">
+            <header>
+                    <!-- block header -->
+<nav class="navbar navbar-expand-xl border-bottom">
+    <div class="container-fluid">
+        
+
+        
+            <span class=" fs-4 title-color site-name" id="component-site-name" style="text-transform: uppercase;">Ante-Hero TTRPG</span>
+        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+            aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+            <ul class="navbar-nav">
+
+                <!-- block menu -->
+                <li class="nav-item">
+                    <!-- block menu -->
+    
+        <li class="nav-item" id="component-menu">
+            <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="..">[Home]</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="
+                            nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Rules]</a>
+                            <ul class="dropdown-menu">
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="../intro/" class="dropdown-item text-decoration-none ">Introduction</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="../game-structure/" class="dropdown-item text-decoration-none ">Game Structure</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="../dice/" class="dropdown-item text-decoration-none ">Dice System</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="../characters/" class="dropdown-item text-decoration-none ">Charaters and Roles</a>
+    </li>
+<!-- endblock -->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="../about/">[About]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="../license.md">[License]</a>
+                        </li>
+            </ul>
+        </li>
+<!-- endblock -->
+                </li>
+                <!-- endblock -->
+
+                <!-- block search -->
+                <li class="nav-item">
+                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="md-search-icon">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <!--  endblock -->
+
+                <!-- block source -->
+                <li class="nav-item">
+                    
+                </li>
+                <!--  endblock -->
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--  endblock -->
+            </header>
+
+            <main><!-- block search -->
+<div class="collapse" id="collapseExample">
+    <div role="search" class="search-box">
+        <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+            <input type="text" name="q" class="search-query"
+            placeholder="Search docs" title="Type search term here" />
+        </form>
+    </div>
+</div>
+<!-- endblock -->
+
+                
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 d-none d-md-block" id="component-sidebar">
+                                    <!-- block sidebar -->
+<div class="navbar-expand-md" role="complementary">
+    
+    <div class="sidebar navbar-collapse collapse card">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="3"><a href="#dice-system-overview" class="nav-link">Dice System Overview</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="5"><a href="#start-with" class="nav-link">Start With:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#aspects-qualities" class="nav-link">Aspects &amp; Qualities</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#starting-pools" class="nav-link">Starting Pools:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#sessions-seasons" class="nav-link">Sessions &amp; Seasons</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#scenes" class="nav-link">Scenes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#what-is-a-pot" class="nav-link">What is a Pot?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#creating-a-pot" class="nav-link">Creating a Pot:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#resolving-a-pot" class="nav-link">Resolving a Pot:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#loose-ends" class="nav-link">Loose Ends:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#standard-scene-ratios" class="nav-link">Standard Scene Ratios</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#playtest-summary" class="nav-link">Playtest Summary:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#we-tested-a-scene-based-narrative-system-called-the-showrunner-system-the-goal-was-to-explore-how-player-created-pots-scene-ideas-or-conflicts-could-be-turned-into-a-collaboratively-unfolding-story-governed-by-a-storyboard-act-1-act-2-act-3-etc-the-session-focused-on-the-lunchroom-food-fight-episode-experimenting-with-how-players-commit-their-characters-to-scenes-through-risk-improvisation-and-responsive-worldbuilding" class="nav-link">We tested a scene-based narrative system called the Showrunner System. The goal was to explore how player-created ?pots? (scene ideas or conflicts) could be turned into a collaboratively unfolding story, governed by a Storyboard (Act 1, Act 2, Act 3, etc.). The session focused on the Lunchroom Food Fight episode, experimenting with how players commit their characters to scenes through risk, improvisation, and responsive worldbuilding.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- endblock -->
+                            </div>
+                            <div class="col-md-9 col-12" id="component-content">
+                                    <!-- block content -->
+<section class="container post" id="component-content">
+    <article>
+        <header>
+            
+            
+        </header>
+        <p><h3 id="dice-system-overview">Dice System Overview<a class="headerlink" href="#dice-system-overview" title="Permanent link">∞</a></h3>
+<ul>
+<li>
+<p><strong>Set a Starting Group Project</strong> ("Pot"): \
+ Roll 3?6 dice. \</p>
+</li>
+<li>
+<p>White highest = Smooth start</p>
+</li>
+<li>
+<p>Red highest = Rough start</p>
+</li>
+<li>
+<p>Tie = Twist or surprise</p>
+</li>
+</ul>
+<p><strong>Character Creation &amp; Development</strong></p>
+<p>Characters, or <strong>Personas</strong>, are fluid narrative tools?not fixed heroes.</p>
+<h5 id="start-with"><strong>Start With:</strong><a class="headerlink" href="#start-with" title="Permanent link">∞</a></h5>
+<ul>
+<li>
+<p><strong>Name &amp; Trope/Role</strong> (e.g., ?The Burned-Out Detective?) \</p>
+</li>
+<li>
+<p><strong>Foreshadowing Line</strong> (e.g., ?One day, I?ll become what they fear??) \</p>
+</li>
+<li>
+<p><strong>Arc Theme</strong> (e.g., <em>Redemption through Sacrifice</em>) \</p>
+</li>
+<li>
+<p>(+) Ending: Peaceful resolution</p>
+</li>
+<li>
+<p>(?) Ending: Self-destruction</p>
+</li>
+</ul>
+<h5 id="aspects-qualities"><strong>Aspects &amp; Qualities</strong><a class="headerlink" href="#aspects-qualities" title="Permanent link">∞</a></h5>
+<p>Each character has three <strong>Aspects</strong>:</p>
+<ul>
+<li><strong>Body</strong>, <strong>Mind</strong>, and <strong>Soul</strong></li>
+</ul>
+<p>Each Aspect develops <strong>Qualities</strong>:</p>
+<ul>
+<li>
+<p><strong>Positive (White dice):</strong> Strengths, skills, virtues \</p>
+</li>
+<li>
+<p><strong>Negative (Red dice):</strong> Flaws, trauma, habits</p>
+</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>
+<p><em>Body (+): Ex-Military Physique</em></p>
+</li>
+<li>
+<p><em>Body (?): Injured Leg</em></p>
+</li>
+</ul>
+<h5 id="starting-pools"><strong>Starting Pools:</strong><a class="headerlink" href="#starting-pools" title="Permanent link">∞</a></h5>
+<p>Choose one:</p>
+<ul>
+<li>
+<p><strong>Option A:</strong> Start blank with 10 dice (assigned as Qualities develop) \</p>
+</li>
+<li>
+<p><strong>Option B:</strong> Start with 1 White &amp; 1 Red Quality per Aspect (6 total) \</p>
+</li>
+</ul>
+<p><strong>Gameplay Structure</strong></p>
+<h5 id="sessions-seasons"><strong>Sessions &amp; Seasons</strong><a class="headerlink" href="#sessions-seasons" title="Permanent link">∞</a></h5>
+<ul>
+<li>
+<p><strong>Episode =</strong> 5?10 Scenes + Intermissions + ?Under the Stars? epilogue \</p>
+</li>
+<li>
+<p><strong>Season =</strong> 8?12 Episodes \</p>
+</li>
+<li>
+<p><strong>Series =</strong> Full campaign arc</p>
+</li>
+</ul>
+<p><strong>Scenes &amp; Intermissions</strong></p>
+<h5 id="scenes"><strong>Scenes</strong><a class="headerlink" href="#scenes" title="Permanent link">∞</a></h5>
+<p>Narrative moments where players interact, face conflicts, and roll dice.</p>
+<ol>
+<li>
+<p><strong>Set the Scene: </strong>Players write down something they want to happen that becomes a Pot. The Showrunner takes these as a ?Story Board? and arranges them as Scenes to happen in the episode and frames the setting and stakes. \</p>
+</li>
+<li>
+<p><strong>Build Dice Pools:</strong></p>
+</li>
+<li>
+<p>Add 1 White die per relevant positive Quality</p>
+</li>
+<li>
+<p>Add 1 Red die per negative Quality or complication</p>
+</li>
+<li>
+<p>Scene Type (sets base danger level):</p>
+</li>
+<li>
+<p>Standard (7W:3R)</p>
+</li>
+<li>
+<p>Risky (5W:5R)</p>
+</li>
+<li>
+<p>Desperate (3W:7R)</p>
+</li>
+<li>
+<p><strong>Roll &amp; Resolve: </strong>Compare White vs Red outcomes. Narrate together.</p>
+</li>
+</ol>
+<p><strong>Intermissions</strong></p>
+<p>Breaks between scenes to:</p>
+<ul>
+<li>
+<p>Propose new storylines</p>
+</li>
+<li>
+<p>Adjust character arcs or Qualities</p>
+</li>
+<li>
+<p>Establish new <strong>Pots</strong> (goals, challenges) \</p>
+</li>
+</ul>
+<p><strong>Pots: Narrative Stakes</strong></p>
+<h5 id="what-is-a-pot"><strong>What is a Pot?</strong><a class="headerlink" href="#what-is-a-pot" title="Permanent link">∞</a></h5>
+<p>A <strong>Pot</strong> is a narrative challenge: a project, interaction, goal, conflict, or mission.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>
+<p>?Cleanse the Shrine?</p>
+</li>
+<li>
+<p>?Defend the Village?</p>
+</li>
+<li>
+<p>?Uncover the Traitor?</p>
+</li>
+</ul>
+<h5 id="creating-a-pot"><strong>Creating a Pot:</strong><a class="headerlink" href="#creating-a-pot" title="Permanent link">∞</a></h5>
+<ul>
+<li>
+<p>Players and Showrunner <strong>ante dice</strong> into proposed Pots. \</p>
+</li>
+<li>
+<p>The total number of dice = the Pot?s <strong>difficulty</strong>. \</p>
+</li>
+<li>
+<p>Only actions with enough <strong>White influence</strong> can ?bust? the Pot.</p>
+</li>
+</ul>
+<h5 id="resolving-a-pot"><strong>Resolving a Pot:</strong><a class="headerlink" href="#resolving-a-pot" title="Permanent link">∞</a></h5>
+<ul>
+<li>
+<p>Players roll in Scenes against a Pot.</p>
+</li>
+<li>
+<p>If White influence exceeds Red (or difficulty), the Pot is <strong>busted</strong>. \</p>
+</li>
+<li>
+<p><strong>Rewards:</strong></p>
+</li>
+<li>
+<p>Gain or evolve a Quality (White or Red)</p>
+</li>
+<li>
+<p>Advance Arc</p>
+</li>
+<li>
+<p>Gain allies, resources, or narrative leverage</p>
+</li>
+</ul>
+<h5 id="loose-ends"><strong>Loose Ends:</strong><a class="headerlink" href="#loose-ends" title="Permanent link">∞</a></h5>
+<ul>
+<li>
+<p>If a Pot is ignored, it becomes a <strong>Loose End</strong>. \</p>
+</li>
+<li>
+<p>The Showrunner may roll for <strong>World Response</strong> (e.g. 3 Red dice). \</p>
+</li>
+<li>
+<p>2+ Red 6s = World busts the Pot.</p>
+</li>
+<li>
+<p>Use the <strong>World Bust Table</strong> (twists, setbacks, deaths, new threats). \</p>
+</li>
+</ul>
+<p><strong>Advancement</strong></p>
+<p><strong>Busting a Pot</strong> allows a player to:</p>
+<ul>
+<li>
+<p>Add or refine a Quality (e.g., gain ?Steadfast? or ?Unstable?)</p>
+</li>
+<li>
+<p>Mark a <strong>turning point</strong> in their Arc \</p>
+</li>
+<li>
+<p>Receive narrative perks (e.g., a new ally)</p>
+</li>
+</ul>
+<p><strong>Capped Qualities</strong>: ~5 per Aspect recommended</p>
+<p><strong>Ego Dice (Advanced/Finale Mechanic)</strong></p>
+<p>Each player has <strong>2?3 Ego Dice</strong> per Season:</p>
+<ul>
+<li>
+<p>Represent personal reserves pushed to the limit</p>
+</li>
+<li>
+<p>Flip the die blind during a scene: it becomes a random Red or White die</p>
+</li>
+<li>
+<p>Use it to influence a crucial scene</p>
+</li>
+<li>
+<p>But beware: <strong>using all Ego Dice may lead to character collapse</strong> in the finale</p>
+</li>
+</ul>
+<p><strong>Initiative &amp; Scene Framing</strong></p>
+<p><strong>Adaptive Initiative (Optional):</strong></p>
+<ul>
+<li>
+<p>Players ante 1?3 dice to bid for scene control</p>
+</li>
+<li>
+<p>Highest total frames the scene and begins with ?And? Action!?</p>
+</li>
+</ul>
+<p><strong>Game Summary Flow</strong></p>
+<ol>
+<li>
+<p><strong>Set Scene &amp; Pot</strong></p>
+</li>
+<li>
+<p><strong>Declare Actions &amp; Build Dice Pools</strong></p>
+</li>
+<li>
+<p><strong>Roll (White vs Red) &amp; Interpret Result</strong></p>
+</li>
+<li>
+<p><strong>Narrate Outcome</strong></p>
+</li>
+<li>
+<p><strong>Intermission: Update arcs, propose next Pot or Scene</strong></p>
+</li>
+<li>
+<p><strong>Repeat</strong></p>
+</li>
+<li>
+<p><strong>End Episode with ?Under the Stars? scene</strong></p>
+</li>
+</ol>
+<p><strong>Character Sheet Elements</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name / Trope / Foreshadow</td>
+<td>Character identity, archetype, and dramatic line</td>
+</tr>
+<tr>
+<td>Aspects &amp; Qualities</td>
+<td>Body / Mind / Soul with positive (+W) and negative (+R) traits</td>
+</tr>
+<tr>
+<td>Arc</td>
+<td>Title, foreshadowing, positive and negative endings</td>
+</tr>
+<tr>
+<td>Secrets &amp; Relationships</td>
+<td>Short dramatic hooks</td>
+</tr>
+<tr>
+<td>Dice Pool</td>
+<td>Track current dice available (White/Red)</td>
+</tr>
+<tr>
+<td>Ego Dice Used</td>
+<td>Track remaining Ego dice</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Design Philosophy</strong></p>
+<ul>
+<li>
+<p>Let <strong>themes, not heroes</strong>, take center stage. \</p>
+</li>
+<li>
+<p>Embrace <strong>?Yes, and??</strong> to grow the fiction cooperatively. \</p>
+</li>
+<li>
+<p>Treat every result?success or failure?as <strong>meaningful influence</strong>. \</p>
+</li>
+<li>
+<p>Personas change, die, or disappear; **the world remembers. \
+**</p>
+</li>
+<li>
+<p>The story is not about winning?it is about transformation.</p>
+</li>
+</ul>
+<p>Let the <strong>story</strong> win. Let the <strong>dice</strong> decide.</p>
+<p><strong>ADVANCEMENT THROUGH POTS</strong></p>
+<p>You evolve your character by <strong>busting Pots</strong> (i.e., succeeding against the game?s stakes).</p>
+<p>When you bust a Pot, you may:</p>
+<ul>
+<li>
+<p>Add a new <strong>Quality</strong> (positive or negative) \</p>
+</li>
+<li>
+<p><strong>Deepen a Quality</strong> (narratively evolve it: e.g., <em>From "Short-Tempered" ? "Rage-Induced Tunnel Vision"</em>) \</p>
+</li>
+<li>
+<p>Add a new <strong>Relationship</strong>, <strong>Secret</strong>, or piece of **History \
+**</p>
+</li>
+<li>
+<p>Mark a <strong>Turning Point</strong> in your Arc (affects narrative weight and possible ending) \</p>
+</li>
+<li>
+<p>You may only hold a limited number of qualities per aspect (e.g., 5 each). After that, additions must replace or evolve older ones.</p>
+</li>
+</ul>
+<p><strong>The World Responds</strong></p>
+<ul>
+<li>
+<p>GMs track <strong>World Pots</strong>: Adversarial plots, looming disasters, and unfinished business \</p>
+</li>
+<li>
+<p>World can roll against player goals</p>
+</li>
+<li>
+<p>If the World accumulates <strong>3 World Busts</strong>, it initiates a <strong>Tension Phase</strong>: \</p>
+</li>
+<li>
+<p>Rising dread</p>
+</li>
+<li>
+<p>Growing Unrest</p>
+</li>
+<li>
+<p>Conflict breaks out</p>
+</li>
+<li>
+<p>Major character/NPC dies or vanishes</p>
+</li>
+</ul>
+<p><strong>Game Flow</strong></p>
+<ol>
+<li>
+<p>Set the Scene</p>
+</li>
+<li>
+<p>Declare Goals &amp; Identify Pots</p>
+</li>
+<li>
+<p>Build Dice Pools</p>
+</li>
+<li>
+<p>Resolve</p>
+</li>
+<li>
+<p>Intermission: Plan next Scene</p>
+</li>
+<li>
+<p>?Under the Stars? wrap-up</p>
+</li>
+</ol>
+<p><strong>Sample Scene</strong></p>
+<p>A mystic tries to seal a portal before a curse spreads.</p>
+<ul>
+<li>
+<p>Red Dice: 4 (time pressure, magical backlash) \</p>
+</li>
+<li>
+<p>White Dice: 3 (ritual knowledge, support from allies)</p>
+</li>
+</ul>
+<p><strong>Rolls:</strong> Red: 6, 6, 3, 2 | White: 5, 6, 4</p>
+<ul>
+<li>Success (White 6), BUT double Red 6 = Flaw gained, and something dark escapes</li>
+</ul>
+<p><strong>World-Scale Dice Metrics</strong></p>
+<table>
+<thead>
+<tr>
+<th>Players</th>
+<th>Pot Total</th>
+<th>Easy</th>
+<th>Medium</th>
+<th>Hard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>165</td>
+<td>40</td>
+<td>50</td>
+<td>75</td>
+</tr>
+<tr>
+<td>4</td>
+<td>220</td>
+<td>55</td>
+<td>65</td>
+<td>100</td>
+</tr>
+<tr>
+<td>5</td>
+<td>280</td>
+<td>70</td>
+<td>85</td>
+<td>125</td>
+</tr>
+</tbody>
+</table>
+<h5 id="standard-scene-ratios"><strong>Standard Scene Ratios</strong><a class="headerlink" href="#standard-scene-ratios" title="Permanent link">∞</a></h5>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>White:Red</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Standard</td>
+<td>7:3</td>
+</tr>
+<tr>
+<td>Risky</td>
+<td>5:5</td>
+</tr>
+<tr>
+<td>Desperate</td>
+<td>3:7</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example Scene: A warrior tries to hold a crumbling bridge.</strong></p>
+<ul>
+<li>
+<p><strong>Dice Pool: 3 Red (danger, collapsing structure) + 2 White (training, strength)</strong></p>
+</li>
+<li>
+<p><strong>Rolls: Red 6, 5, 3 / White 4, 6</strong></p>
+</li>
+<li>
+<p><strong>Result: Mixed. Allies cross safely (White 6), but the warrior is injured (Red 6).</strong></p>
+</li>
+</ul>
+<p>| Average D6 roll: 3.5 | Average roll ratio Player to World assuming 10 dice | Total Pot average pot | Easy Act
+(25%) | Medium Act (30%) | Hard Act (45%) |
+|---|---|---|---|---|---|
+| 3 players | 30:15 | 157.5 (160) | 40 | 48 (50) | 72 (75) |
+| 4 players | 40:20 | 210 (220) | 55 | 63 (65) | 99 (100) |
+| 5 players | 50:25 | 262.5 (270) | 67.5 (70) | 81 (85) | 121.5 (125) |</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Pots per act</th>
+<th>Easy Act</th>
+<th>Medium Act</th>
+<th>Hard Act</th>
+<th>Pot total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3 player</td>
+<td>3</td>
+<td>20:10:10</td>
+<td>25:15:10</td>
+<td>35:25:15</td>
+<td>165</td>
+</tr>
+<tr>
+<td>4 players</td>
+<td>4</td>
+<td>20:15:10:10</td>
+<td>25:20:10:10</td>
+<td>40:30:15:15</td>
+<td>220</td>
+</tr>
+<tr>
+<td>5 players</td>
+<td>4</td>
+<td>30:20:10:10</td>
+<td>35:25:15:10</td>
+<td>50:35:25:15</td>
+<td>280</td>
+</tr>
+</tbody>
+</table>
+<p>|  | Standard
+7:3 White:Red | Standard Ratios | Risky
+5:5
+White:Red | Risky ratios | Desperate
+3:7
+White:Red | Desperate ratios |
+|---|---|---|---|---|---|---|
+| 3 players | E:M:H | 160:165 | M:M:H | 160:175 | M:H:H | 160:200 |
+| 4 players | E:M:H | 220:220 | M:M:H | 220:230 | M:H:H | 220:265 |
+| 5 players | E:M:H | 270:280 | M:M:H | 270:295 | M:H:H | 270:235 |</p>
+<h5 id="playtest-summary"><strong><em>Playtest Summary:</em></strong><a class="headerlink" href="#playtest-summary" title="Permanent link">∞</a></h5>
+<h5 id="we-tested-a-scene-based-narrative-system-called-the-showrunner-system-the-goal-was-to-explore-how-player-created-pots-scene-ideas-or-conflicts-could-be-turned-into-a-collaboratively-unfolding-story-governed-by-a-storyboard-act-1-act-2-act-3-etc-the-session-focused-on-the-lunchroom-food-fight-episode-experimenting-with-how-players-commit-their-characters-to-scenes-through-risk-improvisation-and-responsive-worldbuilding">We tested a scene-based narrative system called the <em>Showrunner System</em>. The goal was to explore how player-created ?pots? (scene ideas or conflicts) could be turned into a collaboratively unfolding story, governed by a Storyboard (Act 1, Act 2, Act 3, etc.). The session focused on the <em>Lunchroom Food Fight</em> episode, experimenting with how players commit their characters to scenes through risk, improvisation, and responsive worldbuilding.<a class="headerlink" href="#we-tested-a-scene-based-narrative-system-called-the-showrunner-system-the-goal-was-to-explore-how-player-created-pots-scene-ideas-or-conflicts-could-be-turned-into-a-collaboratively-unfolding-story-governed-by-a-storyboard-act-1-act-2-act-3-etc-the-session-focused-on-the-lunchroom-food-fight-episode-experimenting-with-how-players-commit-their-characters-to-scenes-through-risk-improvisation-and-responsive-worldbuilding" title="Permanent link">∞</a></h5>
+<p><strong>Setup Phase: The Storyboard</strong></p>
+<ul>
+<li>
+<p><strong>Pot Submissions:</strong> Each player submitted one or more ?pots??scenario prompts with potential conflict or narrative value. The Showrunner also added a pot. \</p>
+</li>
+<li>
+<p><strong>Script Formation:</strong> The Showrunner curated these pots into a <em>Storyboard</em>, dividing them into Acts (Act 1, Act 2, Act 3), forming a loose narrative arc for the episode. \</p>
+</li>
+<li>
+<p><strong>Scene Selection:</strong> Players then chose which scene they wanted their character to be involved in. \</p>
+</li>
+<li>
+<p><strong>Wager System ("Pay to Play"):</strong> Instead of DCs, players committed to a scene by wagering dice?representing how invested or risky their character?s participation would be. This ?Pot? determines scene momentum, not success/failure.</p>
+</li>
+</ul>
+<p><strong>Mechanics:</strong></p>
+<ul>
+<li>
+<p><strong>Adaptive Initiative:</strong> Players rolled to determine who would initiate the scene, using the dice they wagered. The highest roller begins the action?"And... Action!". \</p>
+</li>
+<li>
+<p><strong>Resolution &amp; Reactions:</strong></p>
+</li>
+<li>
+<p>Scenes are resolved not by success/failure rolls, but by how the world (controlled by the Showrunner) <em>reacts</em> to players' actions. \</p>
+</li>
+<li>
+<p>Aspects (such as "Fat Goth Girl" or "Flamboyant Student") <em>do not</em> add dice?they <em>inform behavior</em>. \</p>
+</li>
+<li>
+<p>The World can ?bust? the pot, causing escalation or unexpected shifts.</p>
+</li>
+</ul>
+<p><strong>Scene Playtest: ?Lunchroom Food Fight?</strong></p>
+<p><strong>Characters:</strong></p>
+<ul>
+<li>
+<p><strong>Beatrice</strong>, a fat goth girl (initiator) \</p>
+</li>
+<li>
+<p><strong>Jordan</strong>, a stinky punk \</p>
+</li>
+<li>
+<p><strong>K.C.</strong>, flamboyant student with a scarf \</p>
+</li>
+<li>
+<p><strong>Chris</strong>, the nerd \</p>
+</li>
+<li>
+<p><strong>Richard</strong>, the jock \</p>
+</li>
+</ul>
+<p><strong>Scene Narrative:</strong></p>
+<ul>
+<li>
+<p>Beatrice trips Chris the Nerd, who spills his tray onto Richard the Jock.</p>
+</li>
+<li>
+<p>She attempts to convince Richard that Chris did it intentionally.</p>
+</li>
+<li>
+<p>Richard, roleplayed by the Showrunner (as The World), is not fooled?he yells, puts on his football helmet, and suspects Beatrice.</p>
+</li>
+<li>
+<p>K.C. laughs and spits milk onto a nearby cheerleader.</p>
+</li>
+<li>
+<p>Jordan stands on the table, throws a tray, and screams ?FOOD FIGHT!??slips, and disappears into the chaos.</p>
+</li>
+<li>
+<p>Chris is accidentally struck in the face by the tray.</p>
+</li>
+</ul>
+<p><strong>World Reaction:</strong></p>
+<ul>
+<li>
+<p><strong>The Pot is Busted.</strong> The Showrunner declares that chaos exceeds control. \</p>
+</li>
+<li>
+<p>The lunch ladies activate lockdown protocol: doors and windows seal.</p>
+</li>
+<li>
+<p>No one knows who started it. The consequences are collective.</p>
+</li>
+</ul>
+<p><strong>Key Takeaways from the Playtest:</strong></p>
+<ul>
+<li>
+<p><strong>Narrative Control Emerges from Risk:</strong> Players influence the scene by how much they ?pay in,? not whether they win. \</p>
+</li>
+<li>
+<p><strong>Aspects Drive Roleplay, Not Mechanics:</strong> This encourages character-forward play. \</p>
+</li>
+<li>
+<p><strong>Scene Outcomes Reflect Story Progression:</strong> Not success/failure but narrative consequences. \</p>
+</li>
+<li>
+<p><strong>World Reacts Like a GM-less Engine:</strong> The Showrunner embodies the World and pushes back or escalates when necessary. \</p>
+</li>
+</ul>
+<p><strong>Notes for Revision:</strong></p>
+<ul>
+<li>
+<p><strong>Clarify Scene Resolution:</strong> Determine a mechanic or signal for when a scene ends (e.g., pot total met, or world bust). \</p>
+</li>
+<li>
+<p><strong>Pot Guidelines:</strong> Offer players clearer guidelines for writing pots. \</p>
+</li>
+<li>
+<p><strong>Reward Mechanism:</strong> Possibly develop an end-of-episode reflection or reward based on how well the characters? arcs developed or how the party evolved.</p>
+</li>
+</ul></p>
+    </article>
+</section>
+<!-- endblock -->
+                            </div>
+                        </div>
+                    </div>
+                
+                
+            </main>
+
+            
+                    <!-- block preview -->
+<!-- endblock -->
+            
+
+            
+                    <!-- block footer -->
+<footer class="pt-4 my-md-5 pt-md-5 border-top" id="component-footer">
+    <div class="row">
+        <div class="col-12 col-md">
+                <!-- block copyright -->
+
+    <small class="d-block mb-3">
+        Made with
+        <a href="https://github.com/FernandoCelmer/mkdocs-simple-blog" target="_blank" rel="noopener">
+            Simple Blog for MkDocs
+        </a>
+    </small>
+
+<!-- endblock -->
+        </div>
+    </div>
+</footer>
+<!-- endblock -->
+            
+        </div>
+
+            <script>var base_url = '..';</script>
+            <script src="../assets/js/jquery-3.3.1.slim.min.js""></script>
+            <script src="../assets/js/bootstrap.bundle.min.js""></script>
+            <script src="../assets/js/main.min.js""></script>
+                <script src="../search/main.js" defer></script>
+
+    </body>
+
+</html>
