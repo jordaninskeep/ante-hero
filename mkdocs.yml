@@ -1,0 +1,17 @@
+site_name: "Ante-Hero TTRPG"
+nav:
+  - Home: index.md
+  - Rules: 
+      - Introduction: intro.md
+      - Dice System: dice.md
+  - About: about.md
+  - License: license.md
+theme:
+  name: simple-blog
+  custom_dir: theme
+  sidebar: true
+  navigation_depth: 2
+markdown_extensions:
+  - toc:
+      baselevel: 3
+      permalink: "#"
