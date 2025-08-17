@@ -3,15 +3,19 @@ nav:
   - Home: index.md
   - Rules: 
       - Introduction: intro.md
+      - Game Structure: game-structure.md
       - Dice System: dice.md
+      - Charaters and Roles: characters.md
   - About: about.md
   - License: license.md
 theme:
   name: simple-blog
-  custom_dir: theme
+  theme_style: dark
   sidebar: true
-  navigation_depth: 2
+  navigation_depth: 6
+  components:
+    title: false
 markdown_extensions:
   - toc:
       baselevel: 3
-      permalink: "#"
+      permalink: ∞

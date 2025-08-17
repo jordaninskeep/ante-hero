@@ -1,3 +1,5 @@
+# Introduction
+
 ## **Core Concept**
 
 *Ante-Hero* is a collaborative, narrative-first, GM-lite roleplaying game. 
