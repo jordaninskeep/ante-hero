@@ -1,10 +1,17 @@
-**Opposing Dice Pools** resolve all meaningful actions:
+# Dice Mechanics
 
-- **White Dice** = Strengths, support, and narrative momentum \
+## Player Pools
 
+Each players starts with a pool of 40 dice total, 20 white and 20 black.
 
-- **Red Dice** = Flaws, danger, opposition, and inner demons \
+- **White Dice** = Strengths, support, and narrative momentum  
+- **Red Dice** = Flaws, danger, opposition, and inner demons  
 
+The 40 dice represent the total influence a character will have on the story. When the dice run out the characters arc comes to an end. 
+
+## Session Pools
+
+At the begining of each session the player randomly select 10 dice from their pool. 
 
 **Dice Results (per die):**
 
