@@ -1,5 +1,5 @@
 <!doctype html>
-<html data-bs-theme="dark">
+<html data-bs-theme="light">
     <head>
                 <title>Dice System - Ante-Hero TTRPG</title>
 
@@ -22,18 +22,10 @@
             <link rel="stylesheet" href="../assets/css/main.min.css">
             <link rel="stylesheet" href="../assets/css/media.min.css">
             <link rel="stylesheet" href="../assets/css/mkdocstrings.min.css">
+                <link href="../style.css" rel="stylesheet">
                 <script src="../search/main.js"></script>
 
             
-                
-                    <style>
-                        :root {
-                            --text: white;
-                            --title: white;
-                            --primary: white;
-                            --background: black;
-                        }
-                    </style>
                 
             
     </head>
@@ -151,13 +143,40 @@
     <div class="sidebar navbar-collapse collapse card">
         <ul class="nav flex-column">
             
+            <li class="nav-item" data-bs-level="3"><a href="#dice-mechanics" class="nav-link">Dice Mechanics</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="4"><a href="#life-pools" class="nav-link">Life Pools</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="4"><a href="#session-pools" class="nav-link">Session Pools</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="4"><a href="#anteing-pots-for-scenes" class="nav-link">Anteing Pots for Scenes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="4"><a href="#rolling-the-dice" class="nav-link">Rolling the Dice</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="5"><a href="#determining-initiative" class="nav-link">Determining Initiative</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="5"><a href="#resolving-rolls" class="nav-link">Resolving Rolls</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-bs-level="5"><a href="#outcome-comparison" class="nav-link">Outcome Comparison:</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
             <li class="nav-item" data-bs-level="5"><a href="#1-world-building-session-0" class="nav-link">1. World-Building (Session 0)</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -173,15 +192,53 @@
             
             
         </header>
-        <p><p><strong>Opposing Dice Pools</strong> resolve all meaningful actions:</p>
+        <p><h3 id="dice-mechanics">Dice Mechanics<a class="headerlink" href="#dice-mechanics" title="Permanent link">∞</a></h3>
+<h4 id="life-pools">Life Pools<a class="headerlink" href="#life-pools" title="Permanent link">∞</a></h4>
+<p>Each character starts the game with a pool of 40 dice total, 20 white and 20 black.</p>
 <ul>
-<li>
-<p><strong>White Dice</strong> = Strengths, support, and narrative momentum \</p>
-</li>
-<li>
-<p><strong>Red Dice</strong> = Flaws, danger, opposition, and inner demons \</p>
-</li>
+<li><strong>White Dice</strong> = Strengths, support, and narrative momentum  </li>
+<li><strong>Black Dice</strong> = Flaws, danger, opposition, and inner demons  </li>
 </ul>
+<p>The 40 dice represent the total amount of influence a character will have on the story. When the dice run out the characters arc comes to an end.</p>
+<blockquote>
+<p>[!NOTE]
+It is suggested to actually buy this many dice. Players can keep their dice in a bag or container.
+Otherwise, players will need to keep a tally sheet to subtract and add dice to track their amount throughout the game.</p>
+</blockquote>
+<h4 id="session-pools">Session Pools<a class="headerlink" href="#session-pools" title="Permanent link">∞</a></h4>
+<p>At the beginning of each session the player randomly pull 10 dice from their life pool. This is their session pool. </p>
+<blockquote>
+<p>[!NOTE]
+The number of dice dedicated to each session can be adjusted to shorten or length a sessions gameplay. 10 is roughly a 2 hour session. </p>
+</blockquote>
+<p>This represents the amount of influence a player can have on a session. Because the player blindly pulls the dice, a character strengths or weaknesses may play an exaggerated role in a session but will balance over the course of the game.</p>
+<p>The session pool is what the player will draw from each time they roll, except in the case of "digging deep." </p>
+<h4 id="anteing-pots-for-scenes">Anteing Pots for Scenes<a class="headerlink" href="#anteing-pots-for-scenes" title="Permanent link">∞</a></h4>
+<blockquote>
+<p>[!WARNING]
+It is possible that dedicating 10 dice to a session, and then also anteing dice to a scene create a redundancy in the the "Use it or loss it" rule. I wonder if there is a way to avoid this happening twice. A couple thoughts: 1. The initial session pool allows for a control of how long sessions last, (though I don't think we have ever used all our dice). 2. I would like to see people rolling more dice. I think we are taking things too slow. Most rolls have been 1, 2 or 3 dice, but we should think about this more. 3. The ante is really where we want the player to "risk it of the biscuit". We should find a way to make this feel more significant. </p>
+</blockquote>
+<p>Once the first scene is determined and the showrunner determines the first pot, all character players will "ante" any number of their dice from their session pool. Count up the total number of all dice anted by all players, add 1/2 of the number rounded down to the total, and multiply by 3.5. </p>
+<p>This number is the number which when it is reached or passed, "busts" the scene pot. </p>
+<p>Any dice that are anted are committed towards a scene and can only be used in that scene. If they are not expended during the scene they become lost. Discard them to the lost dice pool. </p>
+<blockquote>
+<p>[!NOTE]
+Think of this number less as a DC in other TTRPGs and more as the amount of interest or time a player wants to spend on a particular scene. </p>
+</blockquote>
+<h4 id="rolling-the-dice">Rolling the Dice<a class="headerlink" href="#rolling-the-dice" title="Permanent link">∞</a></h4>
+<p>Each player then rolls all or some of their dice which was anted towards the scene. If they do not roll all of them, they may get a chance to roll a second initiative and take a second chance at a pot. </p>
+<h5 id="determining-initiative">Determining Initiative<a class="headerlink" href="#determining-initiative" title="Permanent link">∞</a></h5>
+<p>The player with the highest roll goes first preceding to the next highest, etc.</p>
+<p>Ties are broken first by the player who rolled the least dice, then by the player with the highest single die. If players rolled exactly the same roll, both roll a D6 and the highest roll goes first.</p>
+<h5 id="resolving-rolls">Resolving Rolls<a class="headerlink" href="#resolving-rolls" title="Permanent link">∞</a></h5>
+<p>Following the order of initiative, each player then resolves their roll narratively. Mark on the Plot Point Card the total of their roll. </p>
+<ol>
+<li>Determine the setting of the scene</li>
+<li>Determine what other characters are in the scene.</li>
+<li>Determine what NPCs are in the scene, and who will roleplay them. </li>
+<li>Collaboratively act out the scene.</li>
+<li></li>
+</ol>
 <p><strong>Dice Results (per die):</strong></p>
 <ul>
 <li>
